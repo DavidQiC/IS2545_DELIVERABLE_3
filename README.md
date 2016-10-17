@@ -12,7 +12,7 @@ Since the first story comes into my mind is about testing the problem of login, 
 ### Story 1 
 As a user    
 I want to log in    
-So that I can but items online    
+So that I can buy items online    
 
 #### Scenario -1     
 Given I am in the login in page, that is http://store.demoqa.com/products-page/your-account/,       
