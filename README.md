@@ -15,18 +15,21 @@ I want to log in
 So that I can but items online    
 
 #### Scenario -1     
-Given I am in the login in page, that is http://store.demoqa.com/products-page/your-account/, and I have successfully registered with username qic921015, password 123     
-And I login in without inputting username and password        
+Given I am in the login in page, that is http://store.demoqa.com/products-page/your-account/,       
+And I have successfully registered with username qic921015, password 123     
+When I login in without inputting username and password        
 Then I should receive an error message         
     
 #### Scenario -2
-Given I am in the login in page, that is http://store.demoqa.com/products-page/your-account/, and I have successfully registered with username qic921015, password 123    
-And I login in with incorrect username and correct password          
+Given I am in the login in page, that is http://store.demoqa.com/products-page/your-account/,     
+And I have successfully registered with username qic921015, password 123    
+When I login in with incorrect username and correct password          
 Then I should receive an error message    
     
 #### Scenario -3    
-Given I am in the login in page, that is http://store.demoqa.com/products-page/your-account/, and I have successfully registered with username qic921015, password 123    
-And I login in with correct username and incorrect password       
+Given I am in the login in page, that is http://store.demoqa.com/products-page/your-account/,     
+And I have successfully registered with username qic921015, password 123    
+When I login in with correct username and incorrect password       
 Then I should receive an error message.    
 
 ### Story 2    
