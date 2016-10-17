@@ -56,7 +56,7 @@ When I type “enter” in my keyboard
 Then I can see there is many products about “Apple” in the list the system response with.    
 
 ### Story 3    
-As a user,    
+As a user    
 I want to check my cart    
 So that I can pay or cancel the items I have added into cart    
 
