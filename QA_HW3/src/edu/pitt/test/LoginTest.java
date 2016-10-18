@@ -31,15 +31,11 @@ public class LoginTest {
 	 */
 	@Test
 	public void loginTest1_emptyInfo(){
-//		WebElement logBox = driver.findElement(By.id("log"));
-//		logBox.sendKeys("qic921015");
-//		WebElement pwdBox = driver.findElement(By.id("pwd"));
-//		pwdBox.sendKeys("123");
 		WebElement submit = driver.findElement(By.id("login"));
 		submit.submit();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		WebElement msg = driver.findElement(By.xpath("//*[@id=\"ajax_loginform\"]/p[1]/strong[1]"));
-		assertEquals("ERROR", msg.getText());
+		WebElement msg = driver.findElement(By.xpath("//*[@id='ajax_loginform']/p[1]"));
+		assertEquals("Please enter your username and password.", msg.getText());
 	}
 	
 	/**
