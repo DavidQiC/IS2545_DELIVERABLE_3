@@ -7,6 +7,8 @@ Three user stories have been realized in three different java files. Every user 
 
 Since the first story comes into my mind is about testing the problem of login, and when I test it, it's my first time to write code relevant to selenium. High frequent test for logining makes my IP blocked.
 
+NOTICE: The version of selenium java I used is below 3.0, which seems that less code should be written: No code like "System.setProperty("webdriver.gecko.driver", "libs\\geckodriver.exe")" should be written.
+
 ## Stories and Scenarios
 
 ### Story 1 
